@@ -1,8 +1,8 @@
 .outer-container {
-  background: grey;
+  background-color: grey;
   height: 1080px;
 }
 .upper-box {
-  background: red;
+  background-color: red;
   height: 400px;
 }
