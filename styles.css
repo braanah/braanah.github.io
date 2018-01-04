@@ -1,6 +1,7 @@
 .outer {
   background-color: #ff9999;
-  background-size: 100%;
+  width: 1080px;
+  height: 720px;
 }
 .outer .top {
   padding: 10px;
@@ -13,7 +14,7 @@
   text-align: center;
   text-transform: uppercase;
 }
-.outer .top .background-black {
+.background-black {
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
   height: 200px;
