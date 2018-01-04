@@ -1,0 +1,18 @@
+.outer {
+  margin: 5px;
+  background-color: #ff9999;
+  background-size: cover;
+}
+.outer .top {
+  padding: 10px;
+  height: 200px;
+}
+.outer .top h1 {
+  font-size: 15px;
+  font-weight: 100;
+}
+.outer .top .background-black {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  height: 200px;
+}
