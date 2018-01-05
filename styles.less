@@ -1,13 +1,32 @@
+// Fonts
+//font-family: 'Dancing Script', cursive; [for accents]
+//font-family: 'Spectral SC', serif; [for name]
+//font-family: 'Neuton', serif; [for everything else?]
+
+body{
+    font-family: 'Neuton', serif;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 100;
+    color: #ffffff;
+    text-align: center;
+}
+
 .outer{
-    background-color: rgb(255, 153, 153);
-    width: 1080px;
-    height: 720px;
+    background-color: lightgray;
+    width: 100%;
+    height: 1440px;
     
     .top{
+        background: url(38881107-coding-wallpapers.png);
+        background-repeat: repeat-x;
         padding: 10px;
-        height: 200px;
+        height: 150px;
 
         h1{
+            padding-top: 10px;
             font-size: 50px;
             font-weight: 100;
             color: #ffffff;
@@ -30,3 +49,28 @@
     position: fixed;
     height: 200px;
 }
+
+.typewriter{
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid whitesmoke; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: whitesmoke }
+  }
